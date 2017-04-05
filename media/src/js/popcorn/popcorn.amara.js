@@ -39,6 +39,7 @@
         } else {
             pop = Popcorn.smart(id, urls, options);
         }
+        pop.controls(true);
         return pop;
     }
 })(Popcorn);
